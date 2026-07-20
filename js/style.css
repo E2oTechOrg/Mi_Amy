@@ -1,0 +1,19 @@
+#appointmentModal .modal-content {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#appointmentModal .form-control,
+#appointmentModal .form-select {
+    padding: 0.65rem 1rem;
+    border-radius: 0;
+    border: 1px solid #DDDDDD;
+}
+
+#appointmentModal .btn-close {
+    background-color: #fff;
+    border-radius: 50%;
+    opacity: 1;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    padding: 0.5rem;
+}
