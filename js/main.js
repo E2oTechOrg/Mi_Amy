@@ -90,6 +90,51 @@
     
 })(jQuery);
 
+function setActiveMenu() {
+
+    // Get current page
+    let currentPage = window.location.pathname.split("/").pop();
+
+    // Default page
+    if (currentPage === "" || currentPage === "/") {
+        currentPage = "index.html";
+    }
+
+    // Remove all active classes
+    document.querySelectorAll(".navbar .nav-link, .navbar .dropdown-item").forEach(function (item) {
+        item.classList.remove("active");
+    });
+
+    // Find all links
+    document.querySelectorAll(".navbar a[href]").forEach(function (link) {
+
+        const href = link.getAttribute("href");
+
+        if (!href || href === "#") return;
+
+        if (href.toLowerCase() === currentPage.toLowerCase()) {
+
+            link.classList.add("active");
+
+            // If dropdown item
+            const dropdownMenu = link.closest(".dropdown-menu");
+
+            if (dropdownMenu) {
+
+                const toggle = dropdownMenu.previousElementSibling;
+
+                if (toggle && toggle.classList.contains("dropdown-toggle")) {
+                    toggle.classList.add("active");
+                }
+
+            }
+
+        }
+
+    });
+
+}
+
 
     fetch("footer.html")
     .then((response) => response.text())
@@ -114,3 +159,6 @@
     })
     .catch((error) => console.error("Error loading navbar:", error));
 
+
+
+    
