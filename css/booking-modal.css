@@ -1,0 +1,756 @@
+/*=====================================================
+        FIX: MAKE MODAL APPEAR ABOVE THE SITE HEADER
+        (Bootstrap defaults: backdrop 1050, modal 1055 —
+        raise them above your header's z-index)
+=====================================================*/
+
+.modal-backdrop{
+    z-index:99998 !important;
+}
+
+#bookingModal.modal{
+    z-index:99999 !important;
+}
+
+/*=====================================================
+        PREMIUM BOOKING MODAL
+=====================================================*/
+
+/* Override Bootstrap's modal-xl so it doesn't get too wide */
+.modal-dialog.modal-xl:has(.premium-booking-modal){
+    max-width: 900px;
+}
+
+.premium-booking-modal{
+
+    border:none;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    background:#fff;
+
+    box-shadow:0 35px 90px rgba(0,0,0,.18);
+
+    /* keep the whole popup within the viewport */
+    max-height:95vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+/*=====================================================
+        HEADER
+=====================================================*/
+
+.booking-header{
+
+    background:linear-gradient(135deg,#111,#1f1f1f);
+
+    padding:24px 28px;
+
+    border:none;
+
+    position:relative;
+
+    overflow:hidden;
+
+    flex-shrink:0;
+
+}
+
+.booking-header::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    background:rgba(212,175,55,.08);
+
+    top:-70px;
+
+    right:-50px;
+
+}
+
+.booking-header::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:110px;
+
+    height:110px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.03);
+
+    bottom:-40px;
+
+    left:-30px;
+
+}
+
+.booking-badge{
+
+    display:inline-block;
+
+    background:#d4af37;
+
+    color:#111;
+
+    padding:6px 16px;
+
+    border-radius:30px;
+
+    font-size:11px;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    margin-bottom:10px;
+
+}
+
+.booking-header h2{
+
+    color:#fff;
+
+    font-size:24px;
+
+    font-weight:700;
+
+    margin-bottom:4px;
+
+}
+
+.booking-header p{
+
+    color:#d7d7d7;
+
+    margin:0;
+
+    max-width:420px;
+
+    line-height:20px;
+
+    font-size:13px;
+
+}
+
+.booking-header .btn-close{
+
+    filter:invert(1);
+
+}
+
+/*=====================================================
+        BODY
+=====================================================*/
+
+.premium-booking-modal .modal-body{
+
+    padding:24px;
+
+    background:#fafafa;
+
+    overflow-y:auto;
+
+}
+
+/*=====================================================
+        CUSTOMER CARD
+=====================================================*/
+
+.customer-card{
+
+    background:#fff;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.05);
+
+    height:100%;
+
+}
+
+.customer-card h4{
+
+    font-size:18px;
+
+    margin-bottom:18px;
+
+    font-weight:700;
+
+    color:#111;
+
+}
+
+.customer-card h4 i{
+
+    color:#d4af37;
+
+    margin-right:8px;
+
+}
+
+.customer-card label{
+
+    font-weight:600;
+
+    margin-bottom:6px;
+
+    color:#222;
+
+    font-size:13px;
+
+}
+
+.customer-card .row.mt-4{
+    margin-top:16px !important;
+}
+
+.customer-card .mt-4{
+    margin-top:16px !important;
+}
+
+.customer-card input,
+
+.customer-card select,
+
+.customer-card textarea{
+
+    border:1px solid #e2e2e2;
+
+    border-radius:12px;
+
+    min-height:44px;
+
+    padding:10px 14px;
+
+    font-size:14px;
+
+    transition:.35s;
+
+    box-shadow:none;
+
+}
+
+.customer-card textarea{
+
+    min-height:70px;
+
+    resize:none;
+
+}
+
+.customer-card input:focus,
+
+.customer-card select:focus,
+
+.customer-card textarea:focus{
+
+    border-color:#d4af37;
+
+    box-shadow:0 0 0 .2rem rgba(212,175,55,.15);
+
+}
+
+/*=====================================================
+        SUMMARY CARD
+=====================================================*/
+
+.summary-card{
+
+    background:#111;
+
+    color:#fff;
+
+    border-radius:18px;
+
+    padding:22px;
+
+    height:100%;
+
+}
+
+.summary-card h4{
+
+    font-size:18px;
+
+    font-weight:700;
+
+    margin-bottom:16px;
+
+}
+
+.summary-card h4 i{
+
+    color:#d4af37;
+
+    margin-right:8px;
+
+}
+
+/*=====================================================
+        SUMMARY ROW
+=====================================================*/
+
+.summary-row{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin:10px 0;
+
+    font-size:14px;
+
+}
+
+.summary-row span{
+
+    color:#d8d8d8;
+
+}
+
+.summary-row strong{
+
+    color:#fff;
+
+}
+
+.summary-row.total{
+
+    margin-top:14px;
+
+    padding-top:14px;
+
+    border-top:1px solid rgba(255,255,255,.15);
+
+}
+
+.summary-row.total strong{
+
+    color:#d4af37;
+
+    font-size:22px;
+
+    font-weight:700;
+
+}
+
+/*=====================================================
+        BOOKING ITEMS
+        Shows ~2 items before scrolling internally
+=====================================================*/
+
+#bookingItems{
+
+    max-height:200px;
+
+    overflow-y:auto;
+
+    padding-right:6px;
+
+}
+
+#bookingItems::-webkit-scrollbar{
+
+    width:6px;
+
+}
+
+#bookingItems::-webkit-scrollbar-thumb{
+
+    background:#d4af37;
+
+    border-radius:10px;
+
+}
+
+#bookingItems::-webkit-scrollbar-track{
+
+    background:rgba(255,255,255,.08);
+
+}
+
+/*=====================================================
+        SERVICE ITEM
+=====================================================*/
+
+.booking-item{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:12px;
+
+    padding:10px;
+
+    margin-bottom:12px;
+
+    background:rgba(255,255,255,.06);
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:14px;
+
+    transition:.35s;
+
+}
+
+.booking-item:hover{
+
+    border-color:#d4af37;
+
+    background:rgba(255,255,255,.09);
+
+}
+
+.booking-item-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.booking-item-left img{
+
+    width:52px;
+
+    height:52px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+
+    border:2px solid rgba(212,175,55,.4);
+
+}
+
+.booking-item-left h6{
+
+    color:#fff;
+
+    margin-bottom:3px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.booking-item-left p{
+
+    margin:0;
+
+    color:#cfcfcf;
+
+    font-size:12px;
+
+}
+
+.booking-item-right{
+
+    text-align:right;
+
+}
+
+.booking-item-right h5{
+
+    color:#d4af37;
+
+    font-size:16px;
+
+    margin:0;
+
+    font-weight:700;
+
+}
+
+.booking-item-right span{
+
+    color:#ddd;
+
+    font-size:12px;
+
+}
+
+/*=====================================================
+        WHATSAPP BUTTON
+=====================================================*/
+
+.booking-whatsapp-btn{
+
+    width:100%;
+
+    height:48px;
+
+    border:none;
+
+    margin-top:18px;
+
+    border-radius:50px;
+
+    background:linear-gradient(135deg,#25D366,#20ba5a);
+
+    color:#fff;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    transition:.35s;
+
+    box-shadow:0 12px 28px rgba(37,211,102,.25);
+
+}
+
+.booking-whatsapp-btn i{
+
+    margin-right:8px;
+
+    font-size:17px;
+
+}
+
+.booking-whatsapp-btn:hover{
+
+    transform:translateY(-2px);
+
+    box-shadow:0 16px 36px rgba(37,211,102,.35);
+
+}
+
+.booking-whatsapp-btn:disabled{
+
+    background:#8d8d8d;
+
+    box-shadow:none;
+
+    cursor:not-allowed;
+
+    transform:none;
+
+}
+
+/*=====================================================
+        SUCCESS MESSAGE
+=====================================================*/
+
+.booking-message{
+
+    display:none;
+
+    margin-top:16px;
+
+    padding:14px;
+
+    border-radius:12px;
+
+    background:#e9fff2;
+
+    color:#15803d;
+
+    border-left:5px solid #22c55e;
+
+    font-weight:600;
+
+    line-height:22px;
+
+    text-align:center;
+
+    font-size:13px;
+
+}
+
+.booking-message.show{
+
+    display:block;
+
+    animation:bookingFade .45s ease;
+
+}
+
+.booking-message i{
+
+    font-size:32px;
+
+    display:block;
+
+    margin-bottom:10px;
+
+    color:#28a745;
+
+}
+
+@keyframes bookingFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*=====================================================
+        FLOATING ANIMATION
+=====================================================*/
+
+.customer-card,
+
+.summary-card{
+
+    animation:cardFloat .5s ease;
+
+}
+
+@keyframes cardFloat{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/*=====================================================
+        MOBILE
+=====================================================*/
+
+@media(max-width:991px){
+
+    .summary-card{
+
+        margin-top:20px;
+
+    }
+
+    .premium-booking-modal{
+        max-height:92vh;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .premium-booking-modal .modal-body{
+
+        padding:16px;
+
+    }
+
+    .booking-header{
+
+        padding:18px;
+
+    }
+
+    .booking-header h2{
+
+        font-size:20px;
+
+    }
+
+    .customer-card,
+
+    .summary-card{
+
+        padding:16px;
+
+    }
+
+    .booking-item{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+    .booking-item-right{
+
+        width:100%;
+
+        text-align:left;
+
+    }
+
+    .summary-row.total strong{
+
+        font-size:20px;
+
+    }
+
+    .booking-whatsapp-btn{
+
+        height:46px;
+
+        font-size:14px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .booking-item-left{
+
+        width:100%;
+
+    }
+
+    .booking-item-left img{
+
+        width:48px;
+
+        height:48px;
+
+    }
+
+}
