@@ -1108,75 +1108,52 @@ image: "img/facial.webp"}
     items: [
         {
             id: 137,
-            name: "MI AMI Signature Hydra Facial (12-Step)",
-            description: "Our premium 12-step signature Hydra Facial deeply cleanses, hydrates, brightens, and rejuvenates the skin for an instant glow.",
+            name: "Hydra Facial (Signature 14 Steps)",
+            description: "Our exclusive 14-step Signature Hydra Facial deeply cleanses, exfoliates, hydrates, nourishes, and rejuvenates the skin, leaving you with an instant radiant glow and healthier-looking complexion.",
             duration: "90 mins",
-            price: 3900,
-           image : "img/contact3.webp"
+            price: 3000,
+            image: "img/contact3.webp"
         },
         {
             id: 138,
-            name: "PRP Skin Rejuvenation",
-            description: "Advanced Platelet Rich Plasma (PRP) treatment that stimulates collagen production and improves overall skin texture.",
+            name: "Earlobe Treatment (Both Sides)",
+            description: "Professional cosmetic earlobe repair treatment for torn, stretched, or damaged earlobes, restoring their natural appearance safely and effectively.",
             duration: "60 mins",
-            price: 2500,
-           image : "img/contact3.webp" },
+            price: 4000,
+            image: "img/contact3.webp"
+        },
         {
             id: 139,
-            name: "Mole Removal",
-            description: "Safe and professional mole removal treatment performed by trained specialists.",
-            duration: "30 mins",
-            price: 1000,
-           image : "img/contact3.webp"},
+            name: "Full Cut",
+            description: "Complete professional skin tag, mole, or cosmetic lesion removal treatment performed with precision and advanced techniques for safe and effective results.",
+            duration: "60 mins",
+            price: 5000,
+            image: "img/contact3.webp"
+        },
         {
             id: 140,
-            name: "Earlobe Repair (Both Sides)",
-            description: "Cosmetic earlobe repair surgery for torn or stretched earlobes (both sides).",
-            duration: "60 mins",
-            price: 10000,
-           image : "img/contact3.webp"  },
-        {
-            id: 141,
-            name: "Laser Hair Reduction (Upper Lip)",
-            description: "Permanent laser hair reduction treatment for the upper lip area.",
-            duration: "20 mins",
-            price: 4000,
-           image : "img/contact3.webp"   },
-        {
-            id: 142,
-            name: "Laser Hair Reduction (Single Side)",
-            description: "Advanced laser hair reduction treatment for a single treatment area.",
-            duration: "30 mins",
-            price: 3000,
-           image : "img/contact3.webp"     },
-        {
-            id: 143,
-            name: "Laser Hair Reduction (Full Face)",
-            description: "Complete facial laser hair reduction for smooth, hair-free skin.",
-            duration: "60 mins",
-            price: 8000,
-           image : "img/contact3.webp"   },
-        {
-            id: 144,
             name: "Skin Whitening Treatment",
-            description: "Professional skin brightening treatment designed to improve complexion and reduce pigmentation.",
+            description: "Advanced skin whitening treatment designed to brighten dull skin and improve overall complexion. One-time investment with a single session offering up to four visible shades of improvement depending on individual skin condition.",
             duration: "90 mins",
             price: 20000,
-           image : "img/contact3.webp"  },
+            image: "img/contact3.webp"
+        },
         {
-            id: 145,
+            id: 141,
             name: "Korean Glass Skin Treatment",
-            description: "Premium Korean skin treatment that delivers radiant, hydrated, glass-like skin.",
+            description: "Premium Korean-inspired skin therapy that deeply hydrates, refines pores, improves skin texture, and delivers a radiant, smooth, glass-like complexion.",
             duration: "90 mins",
             price: 8000,
-           image : "img/contact3.webp"     },
+            image: "img/contact3.webp"
+        },
         {
-            id: 146,
-            name: "Heel Pad Treatment",
-            description: "Deep repair treatment for cracked, dry, and rough heels, leaving them soft and healthy.",
+            id: 142,
+            name: "Heel Peel Treatment",
+            description: "Advanced heel peel therapy that removes dead skin, repairs cracked heels, and restores soft, smooth, and healthy-looking feet.",
             duration: "45 mins",
             price: 3000,
-           image : "img/contact3.webp"      }
+            image: "img/contact3.webp"
+        }
     ]
 },
 {
@@ -1263,7 +1240,7 @@ image: "img/facial.webp"}
     ]
 },
 {
-    category: "PMV (Semi-Permanent Makeup)",
+    category: "PMU (Semi-Permanent Makeup)",
     icon: "fa-paint-brush",
     items: [
         {
