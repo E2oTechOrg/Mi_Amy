@@ -946,7 +946,7 @@ image: "img/facial.webp"}
     description: "Luxurious full-body polishing treatment with exfoliation and deep hydration for radiant, silky-smooth skin.",
     duration: "100 mins",
     price: 8000,
-    image: "img/bodycare.webp"
+    image: "img/bodymassege.webp"
 },
 {
     id: 182,
@@ -1162,19 +1162,21 @@ image: "img/facial.webp"}
             image: "img/hairservice.webp"
         },
         {
-            id: 123,
-            name: "Hair Colouring",
-            description: "Professional hair colouring using premium quality products.",
-            duration: "60 mins",
-            price: 350,
-            image: "img/hairservice.webp"   },
+    id: 123,
+    name: "Hair Colouring (Per Streak)",
+    description: "Professional hair colouring using premium-quality products. Price is per streak.",
+    duration: "30 mins",
+    price: 350,
+    image: "img/hairservice.webp"
+},
         {
-            id: 124,
-            name: "Hair Streaks",
-            description: "Fashionable hair streaks for a bold and vibrant look.",
-            duration: "90 mins",
-            price: 1500,
-            image: "img/hairservice.webp" },
+    id: 124,
+    name: "Pre-Lightening",
+    description: "Professional pre-lightening treatment to prepare hair for vibrant, even, and long-lasting colour application.",
+    duration: "90 mins",
+    price: 1500,
+    image: "img/hairservice.webp"
+},
         {
             id: 125,
             name: "Pre-Lightening Colour",
