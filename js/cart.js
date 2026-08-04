@@ -742,7 +742,7 @@ image: "img/facial.webp"},
    , image: "img/facial.webp"
 },
 // {
-//     id: 84,
+//     id:  ,
 //     name: "Tan Removal Treatment",
 //     description: "Professional de-tan therapy that removes sun tan and restores the skin's natural brightness.",
 //     duration: "60 mins",
@@ -1460,7 +1460,7 @@ image: "img/facial.webp"}
             description: "Natural-looking semi-permanent eyebrow embroidery to enhance shape and fullness.",
             duration: "120 mins",
             price: 12000,
-            image : "img/pwv.webp"
+            image : "img/pwv1.webp"
         },
         {
             id: 159,
