@@ -1460,7 +1460,7 @@ image: "img/facial.webp"}
             description: "Natural-looking semi-permanent eyebrow embroidery to enhance shape and fullness.",
             duration: "120 mins",
             price: 12000,
-            image : "img/pwv1.webp"
+            image : "img/eyebrow.webp"
         },
         {
             id: 159,
@@ -1468,28 +1468,28 @@ image: "img/facial.webp"}
             description: "Soft powder-filled brows with a natural makeup finish for long-lasting beauty.",
             duration: "120 mins",
             price: 12000,
-            image : "img/pwv.webp"   },
+            image : "img/powerbrows.webp"   },
         {
             id: 160,
             name: "Ombre Brows",
             description: "Gradient-style semi-permanent brows with a soft front and defined tail.",
             duration: "150 mins",
             price: 10000,
-            image : "img/pwv.webp"  },
+            image : "img/ombrebrows.webp"  },
         {
             id: 161,
             name: "Combo Brows",
             description: "Combination of hair strokes and powder shading for perfectly defined eyebrows.",
             duration: "150 mins",
             price: 15000,
-            image : "img/pwv.webp"  },
+            image : "img/combobrows.webp"  },
         {
             id: 162,
             name: "Lip Blush",
             description: "Semi-permanent lip tinting treatment that enhances natural lip color and definition.",
             duration: "180 mins",
             price: 15000,
-            image : "img/pwv.webp"}
+            image : "img/lip.webp"}
     ]
 }
 
