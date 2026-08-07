@@ -595,7 +595,7 @@ const services = [
             description: "Refreshing fruit-based facial that cleanses, hydrates, and restores your natural glow.",
             duration: "30 mins",
             price: 600,
-image: "img/facial.webp"        
+image: "img/fruitfacial.webp"        
 },
 {
     id: 169,
@@ -603,7 +603,7 @@ image: "img/facial.webp"
     description: "A rejuvenating wine facial enriched with antioxidant-rich extracts to nourish the skin, improve elasticity, enhance radiance, and leave your complexion smooth and refreshed.",
     duration: "45 mins",
     price: 900,
-    image: "img/facial.webp"
+    image: "img/winefacial.webp"
 },
         {
             id: 68,
@@ -612,14 +612,14 @@ image: "img/facial.webp"
             duration: "20 mins",
             price: 500
 ,
-image: "img/facial.webp"        },
+image: "img/cleanup.webp"        },
         {
             id: 69,
             name: "Hydra Glow Clean Up",
             description: "Hydrating clean-up treatment that refreshes dull skin and improves skin texture.",
             duration: "30 mins",
             price: 1000
-           , image: "img/facial.webp"
+           , image: "img/hydraglow.webp"
         },
         {
             id: 70,
@@ -627,7 +627,7 @@ image: "img/facial.webp"        },
             description: "Advanced hydration facial that deeply nourishes, exfoliates, and rejuvenates the skin.",
             duration: "60 mins",
             price: 1500
-           , image: "img/facial.webp"
+           , image: "img/hydrafacial.webp"
         },
         {
             id: 71,
@@ -635,7 +635,7 @@ image: "img/facial.webp"        },
             description: "Premium Hydra Facial with intensive hydration and anti-aging benefits.",
             duration: "60 mins",
             price: 2500
-           , image: "img/facial.webp"
+           , image: "img/hydrafacial plus.webp"
         },
         {
             id: 72,
@@ -643,7 +643,7 @@ image: "img/facial.webp"        },
             description: "Removes tanning, brightens the complexion, and restores even skin tone.",
             duration: "45 mins",
             price: 1200
-           , image: "img/facial.webp"
+           , image: "img/detan.webp"
         },
         {
             id: 73,
@@ -651,7 +651,7 @@ image: "img/facial.webp"        },
             description: "Luxurious gold facial that improves skin elasticity and adds a radiant glow.",
             duration: "60 mins",
             price: 2500
-           , image: "img/facial.webp"
+           , image: "img/goldfacial.webp"
         },
         {
             id: 74,
@@ -659,7 +659,7 @@ image: "img/facial.webp"        },
             description: "Premium signature 24K gold facial for intense nourishment, brightness, and skin rejuvenation.",
             duration: "90 mins",
             price: 3500
-           , image: "img/facial.webp"
+           , image: "img/goldfacial.webp"
         },
         {
             id: 75,
@@ -667,7 +667,7 @@ image: "img/facial.webp"        },
             description: "Anti-aging facial that helps reduce fine lines, wrinkles, and improves skin firmness.",
             duration: "45 mins",
             price: 2000
-           , image: "img/facial.webp"
+           , image: "img/age reversal.webp"
         },
         {
             id: 76,
@@ -676,14 +676,14 @@ image: "img/facial.webp"        },
             duration: "45 mins",
             price: 800
 ,
-image: "img/facial.webp"        },
+image: "img/herbal.webp"        },
         {
     id: 77,
     name: "Skin Whitening Facial",
     description: "Brightening facial treatment that improves skin tone, reduces dullness, and enhances natural radiance.",
     duration: "60 mins",
     price: 1800
-   , image: "img/facial.webp"
+   , image: "img/skin whitening.webp"
 },
 {
     id: 170,
@@ -691,7 +691,7 @@ image: "img/facial.webp"        },
     description: "A refreshing peel-off mask that deeply cleanses, removes impurities, hydrates the skin, and leaves your complexion smooth, bright, and revitalized.",
     duration: "30 mins",
     price: 500,
-    image: "img/facial.webp"
+    image: "img/peel mask.webp"
 },
 {
     id: 78,
@@ -700,14 +700,14 @@ image: "img/facial.webp"        },
     duration: "45 mins",
     price: 800
 ,
-image: "img/facial.webp"},
+image: "img/korean peel mask.webp"},
 {
     id: 79,
     name: "Korean Glass Skin Facial",
     description: "Premium Korean facial designed to achieve smooth, radiant, and glass-like skin.",
     duration: "90 mins",
     price: 4000
-   , image: "img/facial.webp"
+   , image: "img/korean glass skin facial.webp"
 },
 {
     id: 80,
@@ -715,7 +715,7 @@ image: "img/facial.webp"},
     description: "Specialized facial that helps control acne, reduce oil production, and soothe inflamed skin.",
     duration: "60 mins",
     price: 1400
-   , image: "img/facial.webp"
+   , image: "img/acne facial.webp"
 },
 {
     id: 81,
@@ -723,7 +723,7 @@ image: "img/facial.webp"},
     description: "Professional acne treatment targeting pimples, acne marks, and skin inflammation.",
     duration: "75 mins",
     price: 2500
-   , image: "img/facial.webp"
+   , image: "img/acne treatment.webp"
 },
 {
     id: 82,
@@ -731,7 +731,7 @@ image: "img/facial.webp"},
     description: "Treatment to reduce neck pigmentation and restore an even skin tone.",
     duration: "60 mins",
     price: 2500
-   , image: "img/facial.webp"
+   , image: "img/dark neck.webp"
 },
 {
     id: 83,
@@ -739,7 +739,7 @@ image: "img/facial.webp"},
     description: "Advanced facial treatment that reduces pigmentation, dark spots, and uneven skin tone.",
     duration: "75 mins",
     price: 3500
-   , image: "img/facial.webp"
+   , image: "img/pigmentation treatment.webp"
 },
 // {
 //     id:  ,
@@ -755,7 +755,7 @@ image: "img/facial.webp"},
     description: "Specialized treatment for melasma, helping reduce stubborn pigmentation and skin discoloration.",
     duration: "90 mins",
     price: 5000
-   , image: "img/facial.webp"
+   , image: "img/Melasma Treatment.webp"
 },
 {
     id: 86,
@@ -763,7 +763,7 @@ image: "img/facial.webp"},
     description: "Luxury Korean skincare treatment for deep hydration, pore refinement, and flawless glass skin.",
     duration: "120 mins",
     price: 5500
-   , image: "img/facial.webp"
+   , image: "img/korean glass skin.webp"
 },
 {
     id: 87,
@@ -772,7 +772,7 @@ image: "img/facial.webp"},
     duration: "30 mins",
     price: 800
 ,
-image: "img/facial.webp"}
+image: "img/under eye.webp"}
     ]
 },
 
@@ -786,28 +786,28 @@ image: "img/facial.webp"}
             description: "Deep keratin nourishment that repairs damaged hair, reduces frizz, and adds natural shine.",
             duration: "90 mins",
             price: 3500,
-            image: "img/hairspa.webp"  },
+            image: "img/keratinhairspa.webp"  },
         {
             id: 89,
             name: "Hair Spa (Short Hair)",
             description: "Hydrating hair spa specially designed for short hair with scalp massage.",
             duration: "30 mins",
             price: 1000,
-            image: "img/hairspa.webp"},
+            image: "img/Hairspa short.webp"},
         {
             id: 90,
             name: "Hair Spa (Medium Hair)",
             description: "Nourishing spa treatment for medium-length hair to improve softness and strength.",
             duration: "30 mins",
             price: 1200,
-            image: "img/hairspa.webp" },
+            image: "img/Hairspa medium.webp" },
         {
             id: 91,
             name: "Hair Spa (Long Hair)",
             description: "Complete spa therapy for long hair with deep conditioning and scalp rejuvenation.",
             duration: "30 mins",
             price: 1500,
-            image: "img/hairspa.webp",
+            image: "img/Hairspa long.webp",
         },
         {
             id: 92,
@@ -815,7 +815,7 @@ image: "img/facial.webp"}
             description: "Intensive moisture treatment that restores hydration to dry and damaged hair.",
             duration: "45 mins",
             price: 500,
-            image: "img/hairspa.webp" 
+            image: "img/hair hydrating.webp" 
            },
         {
             id: 93,
@@ -823,14 +823,14 @@ image: "img/facial.webp"}
             description: "Luxury hair spa using premium products for healthy, silky, and shiny short hair.",
             duration: "45 mins",
             price: 1500,
-            image: "img/hairspa.webp"        },
+            image: "img/Hairspa short.webp"        },
         {
             id: 94,
             name: "Premium Hair Spa (Medium Hair)",
             description: "Premium nourishment treatment with advanced repair formula for medium-length hair.",
             duration: "45 mins",
             price: 1800,
-            image: "img/hairspa.webp"
+            image: "img/Hairspa medium.webp"
         },
         {
             id: 95,
@@ -838,35 +838,35 @@ image: "img/facial.webp"}
             description: "Luxury spa treatment for long hair with protein repair, hydration, and shine enhancement.",
             duration: "45 mins",
             price: 2000,
-            image: "img/hairspa.webp"       },
+            image: "img/Hairspa long.webp"       },
         {
             id: 96,
             name: "Hair Smoothing (Short Hair)",
             description: "Professional hair smoothing treatment for short hair to reduce frizz and improve manageability.",
             duration: "180 mins",
             price: 3000,
-            image: "img/hairspa.webp"      },
+            image: "img/hair smooth short.webp"      },
         {
             id: 97,
             name: "Hair Smoothing (Medium Hair)",
             description: "Long-lasting smoothing treatment for medium-length hair with a silky finish.",
             duration: "180 mins",
             price: 4500,
-            image: "img/hairspa.webp"       },
+            image: "img/hair smooth medium.webp"       },
         {
             id: 98,
             name: "Hair Smoothing (Long Hair)",
             description: "Premium hair smoothing service for long hair, leaving it straight, soft, and glossy.",
             duration: "180 mins",
             price: 6000,
-            image: "img/hairspa.webp"     },
+            image: "img/hair smooth long.webp"     },
             {
     id: 171,
     name: "Hair Rebonding",
     description: "Professional hair rebonding treatment for permanently straighter, smoother, and more manageable hair.",
     duration: "180 mins",
     price: 3000,
-    image: "img/hairspa.webp"
+    image: "img/hair rebonding.webp"
 },
 {
     id: 172,
@@ -874,7 +874,7 @@ image: "img/facial.webp"}
     description: "Deep conditioning Hair Botox treatment that repairs damage, reduces frizz, and restores shine to short hair.",
     duration: "180 mins",
     price: 5000,
-    image: "img/hairspa.webp"
+    image: "img/hair botox short.webp"
 },
 {
     id: 173,
@@ -882,7 +882,7 @@ image: "img/facial.webp"}
     description: "Nourishing Hair Botox treatment for medium-length hair, leaving it smooth, healthy, and frizz-free.",
     duration: "180 mins",
     price: 8000,
-    image: "img/hairspa.webp"
+    image: "img/hair smooth medium.webp"
 },
 {
     id: 174,
@@ -890,7 +890,7 @@ image: "img/facial.webp"}
     description: "Intensive Hair Botox treatment for long hair to repair damage, improve texture, and add lasting shine.",
     duration: "180 mins",
     price: 10000,
-    image: "img/hairspa.webp"
+    image: "img/hair smooth long.webp"
 },
 {
     id: 175,
@@ -898,7 +898,7 @@ image: "img/facial.webp"}
     description: "Advanced nanoplasty treatment for short hair, providing long-lasting smoothness, hydration, and natural shine.",
     duration: "240 mins",
     price: 8000,
-    image: "img/hairspa.webp"
+    image: "img/nanoplasty short.webp"
 },
 {
     id: 176,
@@ -906,7 +906,7 @@ image: "img/facial.webp"}
     description: "Professional nanoplasty treatment for medium-length hair to reduce frizz and enhance softness.",
     duration: "240 mins",
     price: 13000,
-    image: "img/hairspa.webp"
+    image: "img/nanoplasty medium.webp"
 },
 {
     id: 177,
@@ -914,7 +914,7 @@ image: "img/facial.webp"}
     description: "Premium nanoplasty treatment for long hair, delivering ultra-smooth, silky, and healthy-looking results.",
     duration: "240 mins",
     price: 15000,
-    image: "img/hairspa.webp"
+    image: "img/nanoplasty long.webp"
 },
 {
     id: 178,
@@ -922,7 +922,7 @@ image: "img/facial.webp"}
     description: "Professional keratin treatment for short hair to reduce frizz, strengthen strands, and add shine.",
     duration: "180 mins",
     price: 5000,
-    image: "img/hairspa.webp"
+    image: "img/keratin short.webp"
 },
 {
     id: 179,
@@ -930,7 +930,7 @@ image: "img/facial.webp"}
     description: "Keratin smoothing treatment for medium-length hair, leaving it soft, manageable, and glossy.",
     duration: "180 mins",
     price: 8000,
-    image: "img/hairspa.webp"
+    image: "img/hair smooth medium.webp"
 },
 {
     id: 180,
@@ -938,7 +938,7 @@ image: "img/facial.webp"}
     description: "Premium keratin treatment for long hair to restore smoothness, strength, and long-lasting shine.",
     duration: "180 mins",
     price: 10000,
-    image: "img/hairspa.webp"
+    image: "img/hair smooth long.webp"
 },
 {
     id: 181,
@@ -954,7 +954,7 @@ image: "img/facial.webp"}
     description: "Traditional Ayurvedic scalp therapy using nourishing herbal ingredients to improve scalp health and strengthen hair.",
     duration: "60 mins",
     price: 2000,
-    image: "img/hairspa.webp"
+    image: "img/ayurvedic scalp.webp"
 },
 {
     id: 183,
@@ -962,7 +962,7 @@ image: "img/facial.webp"}
     description: "Effective anti-dandruff scalp treatment that helps reduce flakes, itching, and scalp irritation.",
     duration: "60 mins",
     price: 1500,
-    image: "img/hairspa.webp"
+    image: "img/dandruff.webp"
 },
 {
     id: 184,
@@ -970,7 +970,7 @@ image: "img/facial.webp"}
     description: "Advanced dandruff treatment with deep scalp cleansing and nourishing therapy for long-lasting scalp health.",
     duration: "75 mins",
     price: 3000,
-    image: "img/hairspa.webp"
+    image: "img/dandruff.webp"
 }
     ]
 },
@@ -1235,7 +1235,87 @@ image: "img/facial.webp"}
             duration: "30 mins",
             price: 400,
            image: "img/hairservice.webp"
-        }
+        },
+        {
+      id: 189,
+      name: "Full Face Hair Removal",
+      description: "Permanent hair reduction treatment for the full face.",
+      duration: "45 mins",
+      price: 2500,
+      image: "img/hairservice.webp"
+    },
+    {
+      id: 190,
+      name: "Upper Lip Hair Removal",
+      description: "Permanent hair reduction for the upper lip area.",
+      duration: "15 mins",
+      price: 800,
+      image: "img/hairservice.webp"
+    },
+    {
+      id: 191,
+      name: "Chin Hair Removal",
+      description: "Permanent hair reduction for the chin area.",
+      duration: "15 mins",
+      price: 1500,
+      image: "img/hairservice.webp"
+    },
+    {
+      id: 192,
+      name: "Full Hand Hair Removal",
+      description: "Permanent hair reduction for both full hands.",
+      duration: "45 mins",
+      price: 3500,
+      image: "img/hairservice.webp"
+    },
+    {
+      id: 193,
+      name: "Half Hand Hair Removal",
+      description: "Permanent hair reduction for half hands.",
+      duration: "30 mins",
+      price: 2500,
+      image: "img/hairservice.webp"
+    },
+    {
+      id: 194,
+      name: "Full Leg Hair Removal",
+      description: "Permanent hair reduction for full legs.",
+      duration: "60 mins",
+      price: 4500,
+      image: "img/hairservice.webp"
+    },
+    {
+      id: 195,
+      name: "Half Leg Hair Removal",
+      description: "Permanent hair reduction for half legs.",
+      duration: "45 mins",
+      price: 3500,
+      image: "img/hairservice.webp"
+    },
+    {
+      id: 196,
+      name: "Full Body Hair Removal (Without Private Area)",
+      description: "Complete body hair reduction excluding the private area.",
+      duration: "120 mins",
+      price: 15000,
+      image: "img/hairservice.webp"
+    },
+    {
+      id: 197,
+      name: "Underarms Hair Removal",
+      description: "Permanent hair reduction for underarms.",
+      duration: "20 mins",
+      price: 2500,
+      image: "img/hairservice.webp"
+    },
+    {
+      id: 198,
+      name: "Whole Body Hair Removal",
+      description: "Complete body hair reduction including all treatment areas.",
+      duration: "150 mins",
+      price: 20000,
+      image: "img/hairservice.webp"
+    }
     ]
 },
 
